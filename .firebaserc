@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "kppsamiti",
+    "production": "kppsamity",
+    "prod": "kppsamity"
+  }
+}
