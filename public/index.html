@@ -15,7 +15,7 @@
       content="3LE_zXa6kBU73lJfWHCOUfD7lNzJtmu0lQRLhhIpC8U"
     />
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./assets/styles.css?v=9" />
+    <link rel="stylesheet" href="./assets/styles.css?v=11" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -103,6 +103,132 @@
 
       <div
         class="jumbotron jumbotron-fluid mb-0 pt-4"
+        style="background-color: #006241"
+      >
+        <section class="container p-4">
+          <h2 class="display-4 mb-4" style="color: #fff">
+            Tour of Ayodhya Hill, Purulia
+          </h2>
+          <hr class="section-underline" style="border-color: white" />
+          <p style="color:white;font-size:17px;">Thank you everyone for making this trip fun & memorable. Here are some pictures from this tour - </p>
+          <div class="image-gallery">
+            <div class="scroll-container purulia d-flex"></div>
+            <div class="button-modal button-left purulia">
+              <div class="arrow-button" onclick="onScrollLeftPurulia()">
+                <span class="left-arrow">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="sr-only">Previous</span>
+              </div>
+            </div>
+            <div class="button-modal button-right purulia">
+              <div class="arrow-button" onclick="onScrollRightPurulia()">
+                <span class="right-arrow">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="sr-only">Next</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="col-lg-6">
+              <img
+                src="./assets/images/Murguma_Dam.jpg"
+                alt="Murguma Dam"
+                style="
+                  object-fit: contain;
+                  height: auto;
+                  width: 100%;
+                  border: 1px solid white;
+                  margin: 20px 0;
+                "
+              />
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="./assets/images/Girgiri_River.jpg"
+                alt="Girgiri River"
+                style="
+                  object-fit: contain;
+                  height: auto;
+                  width: 100%;
+                  border: 1px solid white;
+                  margin: 20px 0;
+                "
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12" style="color:#fff;">
+              <h3>Program Schedule</h3>
+              <ul class="purulia-list">
+                <li>
+                  <span>26-Feb-2021</span> - Start from Howrah by Howrah-Chakradharpur Special. Train to leave Howrah at 00:05 hours. 
+                </li>
+                <li><span>26-Feb-2021</span> - Reach Purulia Station in the morning. Proceed from Purulia Station to Resort at Ayodhya Hill. Later in the day, visit to Murguma and back to the Resort.</li>
+                <li><span>27-Feb-2021</span> - Trek from Dholburu to Shirkabad via Budha village through Ayodhya Hill.</li>
+                <li><span>28-Feb-2021</span> - Sight seeing at Purulia. Leaving Purulia by Chakradharpur-Howrah Special in the evening. </li>
+                <li><span>01-Mar-2021</span> - Reaching Howrah early morning. </li>
+              </ul>
+              <p style="font-size: 18px; text-align: justify;margin: 2rem 0;">
+                Cost for <span style="font-size: 24px;">3 Days, 2 Nights - Rs. 4000 per person</span>.
+                <br>
+                Stay at a resort, separately for male and female.
+              </p>
+              <p style="font-size: 18px; text-align: justify;">
+                For further details, interested persons are requested to please contact-
+              </p>
+              <div style="font-size: 24px;margin: 10px 0;">
+                Sri H. P. Chattakhandi
+                <br>
+                <img
+                    src="./assets/images/phone-call.svg"
+                    alt="Phone"
+                    style="width: 22px;vertical-align: baseline;"
+                  /> 9903220855
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <img
+                src="./assets/images/Purulia.jpg"
+                alt="Purulia"
+                style="
+                  object-fit: contain;
+                  height: auto;
+                  width: 100%;
+                  border: 1px solid white;
+                  margin: 20px 0;
+                "
+              />
+            </div>
+          </div> -->
+        </section>
+      </div>
+
+      <div
+        class="jumbotron jumbotron-fluid mb-0 pt-4"
         style="background-color: #fff"
       >
         <section class="container p-4">
@@ -126,11 +252,11 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <p style="font-size: 18px; text-align: justify">
+              <p style="font-size: 18px; text-align: justify;">
                 Here's wishing that the new year will bring joy, love, peace, and happiness to you. 
                 Wishing you a Happy New Year 2021, from us! Happy New Year to you and your family!
               </p>
-              <p style="font-size: 18px; text-align: justify">
+              <p style="font-size: 18px; text-align: justify;">
                 We hope this year will bring warmth of love and positivity in your life.
               </p>
             </div>
@@ -487,6 +613,7 @@
         </section>
       </div>
 
+      <!-- Gallery -->
       <div
         id="gallery"
         class="jumbotron jumbotron-fluid mb-0 pt-4"
@@ -496,8 +623,8 @@
           <h2 class="display-4" style="color: #006241">Gallery</h2>
           <hr class="section-underline" />
           <div class="image-gallery">
-            <div class="scroll-container d-flex"></div>
-            <div class="button-modal button-left">
+            <div class="scroll-container gallery d-flex"></div>
+            <div class="button-modal button-left gallery">
               <div class="arrow-button" onclick="onScrollLeft()">
                 <span class="left-arrow">
                   <svg
@@ -515,7 +642,7 @@
                 <span class="sr-only">Previous</span>
               </div>
             </div>
-            <div class="button-modal button-right">
+            <div class="button-modal button-right gallery">
               <div class="arrow-button" onclick="onScrollRight()">
                 <span class="right-arrow">
                   <svg
@@ -623,7 +750,7 @@
           <div class="modal-body image-modal-body">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img id="modalImg" src="" alt="modal-image" />
+                <img class="img-fluid" id="modalImg" src="" alt="modal-image" />
               </div>
             </div>
             <div class="button-modal button-left modal-left">
@@ -732,6 +859,75 @@
       </div>
     </div>
 
+    <div
+      id="puruliaModal"
+      class="modal fade"
+      aria-labelledby="image-modal"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content image-modal">
+          <div class="modal-header image-modal-header">
+            <span id="imageNamePurulia"></span>
+            <div
+              class="button-modal button-top modal-top"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <div class="arrow-button">
+                <span class="close-btn"> &times; </span>
+                <span class="sr-only">Close</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body image-modal-body">
+            <!-- <div class="modalBgPuru"></div> -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid" id="modalImgPurulia" src="" alt="modal-image" />
+              </div>
+            </div>
+            <div class="button-modal button-left modal-left">
+              <div class="arrow-button" onclick="prevImgPurulia()">
+                <span class="left-arrow">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="sr-only">Previous</span>
+              </div>
+            </div>
+            <div class="button-modal button-right modal-right">
+              <div class="arrow-button" onclick="nextImgPurulia()">
+                <span class="right-arrow">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="sr-only">Next</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -774,6 +970,6 @@
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
     </script>
-    <script src="./index.js?v=3"></script>
+    <script src="./index.js?v=4"></script>
   </body>
 </html>
