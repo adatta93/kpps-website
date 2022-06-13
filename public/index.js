@@ -238,3 +238,18 @@ function nextMagazineImg() {
   }
   $("#magazineImg").attr("src", nextMagImg);
 }
+
+function loadAwards2021Images() {
+  let awards2021ImageSize = 15;
+  for (let i = 1; i <= awards2021ImageSize; i++) {
+    let img = document.createElement("IMG");
+    img.setAttribute("src", `./assets/images/awards_2021/${i}.jpeg`);
+    img.setAttribute("class", "magazine-img");
+    img.setAttribute("style", "filter: contrast(0.95)");
+    img.setAttribute("alt", `Image ${i}`);
+    img.setAttribute("id", `${i}`);
+    document.querySelector(".awards_2021").appendChild(img);
+  }
+}
+
+loadAwards2021Images();

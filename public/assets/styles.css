@@ -253,6 +253,31 @@ img.gallery-item {
 .magazine-img:hover {
   transform: scale(1.05);
 }
+.magazine-new-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.magazine-new-container div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  font-size: 18px;
+}
+.magazine-img-new {
+  height: 450px;
+}
+.magazine-cover-text {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  font-size: 9px;
+  color: #ddd;
+  background-color: rgba(0, 0, 0, 0.29);
+  padding: 10px;
+}
 
 .magazine-close {
   position: absolute;
@@ -381,6 +406,11 @@ img.gallery-item {
   color: #ddd;
 }
 
+.awards_2021 .magazine-img {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 576px) {
   .transparent-bg {
     background: #006241;
@@ -477,6 +507,15 @@ img.gallery-item {
   .chanchal-mitra {
     order: 1;
   }
+  .magazine-img-new {
+    height: 630px;
+  }
+  .magazine-cover-text {
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    font-size: 12px;
+  }
 }
 /* Desktop */
 @media only screen and (min-width: 992px) {
@@ -514,6 +553,25 @@ img.gallery-item {
   }
   .chanchal-mitra {
     order: 1;
+  }
+  .magazine-new-container {
+    flex-direction: row;
+  }
+  .magazine-new-container div {
+    border-radius: 0 10px 10px 0;
+  }
+  .magazine-img-new {
+    height: 630px;
+  }
+  .magazine-cover-text {
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    font-size: 12px;
+  }
+  .awards_2021 .magazine-img {
+    width: 43%;
+    height: auto;
   }
 }
 @media screen and (max-width: 768px) {
